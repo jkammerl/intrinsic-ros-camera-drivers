@@ -133,6 +133,9 @@ RUN apt-get update \
         ros-jazzy-tf2-eigen \
         ros-jazzy-tf2-sensor-msgs \
         ros-jazzy-diagnostic-updater \
+        libassimp5 \
+        libzip4t64 \
+        liburdfdom-model4.0 \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=overlay /opt/ros/underlay/install /opt/ros/underlay/install
