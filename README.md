@@ -1,5 +1,9 @@
 # intrinsic-ros-camera-drivers
 
+> **arm64:** this fork's `arm64/orbbec-runtime-libs` branch builds natively on arm64 hosts, as part of
+> running Intrinsic Flowstate and OMTS on arm64. Start at
+> [jkammerl/native-images](https://github.com/jkammerl/native-images).
+
 Welcome.
 
 This repo contains Intrinsic-compatible ROS camera driver nodes and adapters.
